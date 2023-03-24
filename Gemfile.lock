@@ -66,7 +66,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    bcrypt (3.1.16)
+    bcrypt (3.1.18)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -107,7 +107,7 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.14.2-x64-mingw32)
+    nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -144,20 +144,18 @@ GEM
     rake (13.0.6)
     reline (0.3.2)
       io-console (~> 0.5)
-    sqlite3 (1.6.1-x64-mingw32)
+    sqlite3 (1.6.1-x86_64-linux)
     thor (1.2.1)
     timeout (0.3.2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2022.7)
-      tzinfo (>= 1.0.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     zeitwerk (2.6.7)
 
 PLATFORMS
-  x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bcrypt (~> 3.1.7)
@@ -169,7 +167,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.7.7p221
+   ruby 3.0.2p107
 
 BUNDLED WITH
-   2.1.4
+   2.3.22
